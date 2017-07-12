@@ -7,6 +7,16 @@ grey-838377, 131,131,119
 white
 */
 
+p, a, span{
+	font-family: 'Bitter', serif;
+}
+
+h1,h2, h3{
+	font-family: 'Righteous', cursive;
+}
+
+
+/*HEADER*/
 .header{
 	width: 100vw;
 	border:1px solid black;
@@ -51,9 +61,12 @@ white
 	justify-content: space-between;
 }
 
+/*FOOTER*/
+
 .footer{
 	border:1px solid black;
 	margin-bottom: 10rem;
+	margin-top: 3rem;
 }
 
 .phone, .email, .dart-img, .logo, .address, .payment{
@@ -76,16 +89,111 @@ white
 	border:1px solid black;
 }
 
-
-
-
-
+/*MAIN/GENERAL*/
 
 .main{
-	padding-top: 17rem;
+	padding-top: 20rem;
 }
+
+img{
+	margin: auto;
+}
+
+span{
+	font-size: 1.8rem;
+	font-weight: bolder;
+}
+
+/*ABOUT*/
+
+.about{
+	border:1px solid black;
+	width: 55vw;
+	margin: auto;
+	padding:3rem;
+}
+
+.about-img{
+	margin:auto;
+	padding: 2rem;
+	border: 1px solid black;
+	display: flex;
+}
+
+.about-img img{
+	border-radius: 30px;
+	padding:3rem;
+}
+
+/*CALANDER*/
+
+
+/*FAQs*/
+
+.faqs{
+	border: 1px solid black;
+	margin:auto;
+}
+
+.faqs-items{
+	border: 1px solid black;
+	margin: auto;
+	padding:3rem;
+}
+
+/*LEGAL*/
+
+.legal{
+	border: 1px solid black;	
+	width: 60vw;
+	margin: auto;
+	padding:3rem;
+}
+
+/*PRICES*/
+
+.prices{
+	border: 1px solid black;	
+}
+
+.service{
+	
+}
+
+.cost{
+	
+}
+
+.prices-list{
+	border: 1px solid black;
+	padding: 2rem;
+}
+
+li{
+	/*border-bottom: 1px solid black;*/
+	padding:1rem;
+}
+
+/*GALLERY*/
 
 .gal-img{
 	display: flex;
 	flex-wrap: wrap;
 }
+
+/*CONTACT*/
+
+.contact {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	/*border:1px solid black;*/
+	justify-content: center;
+	margin: auto;
+}
+
+.contact-box{
+	width: 50vw;
+	margin: auto;
+}
+
+
