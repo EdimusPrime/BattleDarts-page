@@ -1,0 +1,61 @@
+/*colors
+nerf blue-0534B8.  5,52,184
+orange-FA6B02    250,107,2
+yellow-FBCE01.  251,206,1
+black
+grey-838377, 131,131,119
+white
+*/
+
+.header{
+	width: 100vw;
+	border:1px solid black;
+	padding: auto;
+	/*display: flex;*/
+	/*flex-wrap: wrap;*/
+}
+
+.navbar{
+	padding-top: 4rem;
+	align-content: center;
+}
+
+.header-img{
+	border:1px solid black;
+	margin: auto;
+}
+
+.mainNav{
+	/*display: flex;*/
+	border:1px solid black;	
+	justify-content: flex-end;
+	justify-content: space-between;
+}
+
+.nav-items{
+	border:1px solid black;	
+	display: flex;
+	justify-content: flex-end;
+	justify-content: space-around;
+}
+
+.social{
+	border:1px solid black;	
+	justify-content: space-between;
+}
+
+.secNav{
+	border:1px solid black;	
+	display: flex;
+	justify-content: flex-end;
+	justify-content: space-between;
+}
+
+.main{
+	padding-top: 17rem;
+}
+
+.gal-img{
+	display: flex;
+	flex-wrap: wrap;
+}
