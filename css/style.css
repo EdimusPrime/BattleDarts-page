@@ -51,6 +51,36 @@ white
 	justify-content: space-between;
 }
 
+.footer{
+	border:1px solid black;
+	margin-bottom: 10rem;
+}
+
+.phone, .email, .dart-img, .logo, .address, .payment{
+	border:1px solid black;
+}
+
+.footer-contact{
+	display: flex;
+	border:1px solid black;
+}
+
+.footer-img{
+	display: flex;
+	border:1px solid black;
+	align-items: baseline;
+}
+
+.footer-finePrint{
+	display: flex;
+	border:1px solid black;
+}
+
+
+
+
+
+
 .main{
 	padding-top: 17rem;
 }
