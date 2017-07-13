@@ -15,78 +15,115 @@ h1,h2, h3{
 	font-family: 'Righteous', cursive;
 }
 
+.container {
+	background-color: #FA6B02
+}
+
+body{
+	background-image: url(../images/nerfdartsRight.png);
+	background-position: left;
+}
+
+body a:hover{
+	color: #0534B8;
+}
+
 
 /*HEADER*/
+
+
 .header{
 	width: 100vw;
-	border:1px solid black;
+	/*border:1px solid black;*/
 	padding: auto;
-	/*display: flex;*/
-	/*flex-wrap: wrap;*/
+	background-color: white;
+	border:1px solid black;
+	padding-top: 1rem;
+/*	margin-bottom: 10rem;
+	margin-top: 3rem;*/
+	/*background-image: url(http://thecouponproject.com/wp-content/uploads/2014/12/nerfdarts.png);*/
+}
+.header a{
+	color: #FA6B02;
+	font-size: 1.8rem;
 }
 
 .navbar{
-	padding-top: 4rem;
+	/*padding-top: 4rem;*/
 	align-content: center;
+	margin: 1.5rem 0 0 0;
+	padding: 1.5rem 0 0 0;
 }
 
 .header-img{
-	border:1px solid black;
-	margin: auto;
+	/*border:1px solid black;*/
+	/*margin: auto;*/
+	background-color: black;
 }
 
 .mainNav{
 	/*display: flex;*/
-	border:1px solid black;	
+		
 	justify-content: flex-end;
 	justify-content: space-between;
 }
 
 .nav-items{
-	border:1px solid black;	
+	border-bottom:1px solid black;
 	display: flex;
 	justify-content: flex-end;
 	justify-content: space-around;
 }
 
 .social{
-	border:1px solid black;	
+	/*border:1px solid black;	*/
 	justify-content: space-between;
 }
 
 .secNav{
-	border:1px solid black;	
+	/*border:1px solid black;	*/
 	display: flex;
 	justify-content: flex-end;
 	justify-content: space-between;
+	padding-top: 1rem;
 }
 
 /*FOOTER*/
 
 .footer{
+	padding-bottom: 2rem;
+	font-size: 2rem;
+	width: 100vw;
 	border:1px solid black;
-	margin-bottom: 10rem;
-	margin-top: 3rem;
+	padding: auto;
+	background-color: rgba(131,131,119, 1);
+	border:1px solid black;
+	padding-top: 1rem;
 }
 
-.phone, .email, .dart-img, .logo, .address, .payment{
-	border:1px solid black;
+.footer p, .footer h3, .footer h4{
+	color: #FA6B02;
+	font-size: 2rem;
 }
+
+/*.phone, .email, .dart-img, .logo, .address, .payment{
+	border:1px solid black;
+}*/
 
 .footer-contact{
 	display: flex;
-	border:1px solid black;
+	/*border:1px solid black;*/
 }
 
 .footer-img{
 	display: flex;
-	border:1px solid black;
+	/*border:1px solid black;*/
 	align-items: baseline;
 }
 
 .footer-finePrint{
 	display: flex;
-	border:1px solid black;
+	/*border:1px solid black;*/
 }
 
 /*MAIN/GENERAL*/
@@ -127,12 +164,23 @@ span{
 
 /*CALANDER*/
 
+.calander{
+	padding: 3rem;
+}
+
+.calander img{
+	margin: auto;
+	padding: auto;
+	padding-bottom: 3rem;
+}
+
 
 /*FAQs*/
 
 .faqs{
 	border: 1px solid black;
 	margin:auto;
+	padding: 4rem;
 }
 
 .faqs-items{
@@ -146,27 +194,23 @@ span{
 .legal{
 	border: 1px solid black;	
 	width: 60vw;
-	margin: auto;
-	padding:3rem;
+	margin: 10rem;
+	padding:10rem;
 }
 
 /*PRICES*/
 
 .prices{
-	border: 1px solid black;	
-}
+	border: 1px solid black;
+	padding: 4rem;	
+	/*margin-bottom: 3rem;*/
 
-.service{
-	
-}
-
-.cost{
-	
 }
 
 .prices-list{
 	border: 1px solid black;
-	padding: 2rem;
+	padding: 4rem;
+	margin-bottom: 5rem;
 }
 
 li{
@@ -184,8 +228,8 @@ li{
 /*CONTACT*/
 
 .contact {
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 	/*border:1px solid black;*/
 	justify-content: center;
 	margin: auto;
@@ -196,4 +240,17 @@ li{
 	margin: auto;
 }
 
+.form{
+	border:1px solid black;
+}
+
+button{
+	background-color: #0534B8;
+	color: white;
+}
+
+button:hover{
+	background-color: #FBCE01;
+	color: black;
+}
 
