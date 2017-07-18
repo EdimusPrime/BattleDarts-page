@@ -142,7 +142,7 @@ span{
 /*ABOUT*/
 
 .about{
-	border:1px solid black;
+	/*border:1px solid black;*/
 	width: 55vw;
 	margin: auto;
 	padding:3rem;
@@ -151,7 +151,7 @@ span{
 .about-img{
 	margin:auto;
 	padding: 2rem;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: flex;
 }
 
@@ -176,13 +176,13 @@ span{
 /*FAQs*/
 
 .faqs{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin:auto;
 	padding: 4rem;
 }
 
 .faqs-items{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: auto;
 	padding:3rem;
 }
@@ -190,7 +190,7 @@ span{
 /*LEGAL*/
 
 .legal{
-	border: 1px solid black;	
+	/*border: 1px solid black;	*/
 	width: 60vw;
 	margin: 10rem;
 	padding:10rem;
@@ -199,14 +199,14 @@ span{
 /*PRICES*/
 
 .prices{
-	border: 1px solid black;
+	border-bottom: 1px solid black;
 	padding: 4rem;	
 	/*margin-bottom: 3rem;*/
 
 }
 
 .prices-list{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	padding: 4rem;
 	margin-bottom: 5rem;
 }
